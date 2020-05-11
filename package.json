@@ -1,0 +1,23 @@
+{
+    "name": "visual-assist-dark",
+    "displayName": "Visual Assist Dark",
+    "description": "",
+    "publisher": "septag",
+    "version": "1.0.0",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visual Assist Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Visual Assist Dark-color-theme.json"
+            }
+        ]
+    }
+}

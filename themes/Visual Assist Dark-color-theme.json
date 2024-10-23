@@ -133,6 +133,14 @@
 			}
 		},
 		{
+			"name": "Macro",
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#bd63c5"
+			}
+		},
+		{
 			"name": "Class name",
 			"scope": "entity.name.type",
 			"settings": {

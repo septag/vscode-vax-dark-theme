@@ -148,35 +148,6 @@
 				"foreground": "#FFD700"
 			}
 		},
-		{
-            "name": "User-defined Types",
-            "scope": [
-                "entity.name.type",
-                "entity.name.class",
-                "entity.name.struct",
-                "storage.type.user-defined",
-                "storage.type.user-defined.cpp"
-            ],
-            "settings": {
-                "foreground": "#FFD700"
-            }
-        },
-		{
-            "name": "Built-in Types",
-            "scope": [
-                "storage.type.builtin",
-                "storage.type.primitive",
-                "storage.type.primitive.cpp",
-                "keyword.type",
-                "keyword.type.cpp",
-                "support.type.primitive",
-                "support.type.builtin",
-                "support.type"
-            ],
-            "settings": {
-                "foreground": "#569CD6"
-            }
-        },
 		// {
 		// 	"name": "Type name",
 		// 	"scope": "storage.type",
@@ -185,6 +156,51 @@
 		// 		"foreground": "#ffd700"
 		// 	}
 		// },
+		{
+			"name": "Class/Struct/Template Keywords",
+			"scope": [
+				"keyword.declaration.class",
+				"keyword.declaration.struct",
+				"storage.type.class",
+				"storage.type.struct",
+				"storage.type.template",
+				"keyword.other.template",
+				"keyword.declaration.template"
+			],
+			"settings": {
+				"foreground": "#FFD700"
+			}
+		},
+		{
+			"name": "User-defined Types",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.struct",
+				"storage.type.user-defined",
+				"storage.type.user-defined.cpp",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#FFD700"
+			}
+		},
+		{
+			"name": "Built-in Types",
+			"scope": [
+				"storage.type.builtin",
+				"storage.type.primitive",
+				"storage.type.primitive.cpp",
+				"support.type.builtin",
+				"support.type.primitive",
+				"keyword.type",
+				"keyword.type.c",
+				"keyword.type.cpp"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
 		{
 			"name": "Type modifier",
 			"scope": "storage.modifier",

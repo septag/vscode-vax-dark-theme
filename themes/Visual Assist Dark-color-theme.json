@@ -149,13 +149,42 @@
 			}
 		},
 		{
-			"name": "Type name",
-			"scope": "storage.type",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#ffd700"
-			}
-		},
+            "name": "User-defined Types",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.struct",
+                "storage.type.user-defined",
+                "storage.type.user-defined.cpp"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+		{
+            "name": "Built-in Types",
+            "scope": [
+                "storage.type.builtin",
+                "storage.type.primitive",
+                "storage.type.primitive.cpp",
+                "keyword.type",
+                "keyword.type.cpp",
+                "support.type.primitive",
+                "support.type.builtin",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+		// {
+		// 	"name": "Type name",
+		// 	"scope": "storage.type",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#ffd700"
+		// 	}
+		// },
 		{
 			"name": "Type modifier",
 			"scope": "storage.modifier",

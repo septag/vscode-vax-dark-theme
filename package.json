@@ -3,7 +3,7 @@
     "displayName": "Visual Assist Dark Theme",
     "description": "Emulates msvc's visual assist dark theme for vscode",
     "publisher": "septag",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
